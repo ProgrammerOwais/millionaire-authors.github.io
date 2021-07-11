@@ -1,0 +1,389 @@
+body {
+    overflow-x: hidden;
+}
+img {
+    width: 100%;
+}
+
+.modal-books {
+    max-width: 100px;
+}
+
+.modal-icons {
+    max-width: 50px;
+    padding-right: 4px;
+}
+hr {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* About link csss */
+
+.project4page2 {
+
+    background-image: linear-gradient(to right ,rgb(175,207,225) ,rgb(160,200,200),rgb(125,207,190));
+}
+
+.closebtn {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: 5px;
+    position: absolute;
+    right: 2vw;
+    top: 1vh;
+    font-size: 2vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.about-heading1 {
+    font-size: 5vh;
+    position: absolute;
+    left: 50vh;
+    top:8vh;
+    opacity: 0;
+}
+
+.about-heading2 {
+    font-size: 5vw;
+    text-align: center;
+    color:firebrick;
+    margin-top: 10rem; 
+}
+.demo1 {
+    width: 70%;
+    font-size: 3vw;
+    position: absolute;
+    left: 15vw;
+    top: 20vh;
+    text-align: center;
+    opacity: 0;
+}
+
+.demo2 {
+    width: 70%;
+    position: relative;
+    left: 15vw;
+    top: 3vh;
+    color:deeppink;
+    font-size: 3vw;
+    text-align: center;
+}
+
+span {
+    transition: opacity 0.5s;
+
+}
+
+
+
+/*About link ended */
+
+.para-img {
+    max-width: 300px;
+}
+
+.para-img1 {
+    max-width: 190px;
+    max-height: 240px;
+}
+
+.josh-img1 {
+    max-width: 1400px;
+}
+
+.josh-img2 {
+    max-width: 60px;
+}
+
+.carousel-container {
+    box-sizing: border-box;
+    max-height: 700px;
+    padding: 3rem;
+}
+
+.carousel-img {
+    margin: 0 auto;
+}
+
+.last-carousel {
+    margin-top: 3rem;
+    max-width: 640px;
+}
+
+.display-4 {
+    word-wrap: break-word;
+    font-size: 2.5rem;
+}
+
+.heading1 {
+    font-family: Suez One , serif;
+    font-size: 2.5rem;
+}
+
+.h1 {
+    font-size: 2.5rem;
+
+}
+
+.h2 {
+
+    font-size: 1.7rem;
+
+}
+
+.h3 {
+  font-size: 1.3rem;
+}
+
+.para {
+    font-family: Open Sans Condensed , sans-serif;
+    font-weight: 550;
+    word-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.para2 {
+    word-wrap: break-word;
+    word-spacing: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+header {
+    margin-right: -1.3rem;
+}
+
+.footer {
+    margin-right: -1.5rem;
+}
+
+
+
+@media(min-width:300px) {
+
+    .heading1 {
+        font-size: 1rem;
+    }
+
+    .h1 {
+        font-size: 1.2rem;
+    
+    }
+    
+    .h2 {
+    
+        font-size: 0.6rem;
+    
+    }
+    
+    .h3 {
+      font-size: 0.5rem;
+    }
+
+    .nav-link , .footer-link {
+        font-size: 0.7rem;
+    }
+
+    .para {
+        word-spacing: 0.1rem;
+        font-size: 0.7rem;
+    }
+
+    .para2 {
+        word-spacing: 0.1rem;
+        font-size: 0.7rem;
+    }
+
+    .display-4 {
+        font-size: 0.6rem;
+    }
+
+}
+
+
+
+@media(min-width:540px) {
+
+    .heading1 {
+        font-size: 1.2rem;
+    }
+
+    .h1 {
+        font-size: 1.4rem;
+    
+    }
+    
+    .h2 {
+    
+        font-size: 0.7rem;
+    
+    }
+    
+    .h3 {
+      font-size: 0.6rem;
+    }
+
+    .nav-link , .footer-link{
+        font-size: 0.8rem;
+    }
+
+    .para {
+        word-spacing: 0.1rem;
+        font-size: 0.85rem;
+    }
+
+    .para2 {
+        word-spacing: 0.1rem;
+        font-size: 0.65rem;
+    }
+
+    
+    .display-4 {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+@media(min-width:768px) {
+
+    .heading1 {
+        font-size: 1.5rem;
+    }
+
+
+    .h1 {
+        font-size: 1.7rem;
+    
+    }
+    
+    .h2 {
+    
+        font-size: 1.1rem;
+    
+    }
+    
+    .h3 {
+      font-size: 0.9rem;
+    }
+  
+    .nav-link , .footer-link  {
+        font-size: 0.9rem;
+    }
+
+    .para {
+        word-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+
+    .para2 {
+        word-spacing: 0.15rem;
+        font-size: 0.75rem;
+    }
+    .display-4 {
+        font-size: 1.7rem;
+    }
+}
+
+
+
+
+@media(min-width:992px) {
+
+
+    .heading1 {
+        font-size: 1.9rem;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    
+    }
+    
+    .h2 {
+    
+        font-size: 1.3rem;
+    
+    }
+    
+    .h3 {
+      font-size: 1.15rem;
+    }
+
+    .nav-link , .footer-link{
+        font-size: 1.05rem;
+    }
+
+    .para {
+        word-wrap: break-word;
+        word-spacing: 0.15rem;
+        font-size: 1.3rem;
+    }
+
+    .para2 {
+        word-spacing: 0.15rem;
+        font-size: 0.9rem;
+    }
+
+    .display-4 {
+        font-size: 2.2rem;
+    }
+
+
+}
+
+
+@media(min-width:1200px) {
+
+
+    .heading1 {
+        font-family: Suez One , serif;
+        font-size: 2.5rem;
+    }
+
+    .h1 {
+        font-size: 2.4rem;
+    
+    }
+    
+    .h2 {
+    
+        font-size: 1.7rem;
+    
+    }
+    
+    .h3 {
+      font-size: 1.3rem;
+    }
+
+    .nav-link , .footer-link {
+        font-size: 1.2rem;
+    }
+
+    .para {
+
+        font-size: 1.5rem;
+    }
+    .para2 {
+        word-wrap: break-word;
+        word-spacing: 0.2rem;
+        font-size: 1.1rem;
+    }
+
+    .display-4 {
+        word-wrap: break-word;
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
