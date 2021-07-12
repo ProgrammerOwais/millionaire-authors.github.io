@@ -6,7 +6,7 @@ body {
     font: size 1vw;;
     position: absolute;
     right: 3%;
-    top: 50px;
+    top: 10px;
     text-decoration: none;
 }
 .closebtn:hover , .closebtn:active {
@@ -14,7 +14,7 @@ body {
 }
 
 .about-heading1 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     position: absolute;
     left: 50vh;
     top:8vh;
@@ -22,14 +22,14 @@ body {
 }
 
 .about-heading2 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
     color: red;
     margin-top: 10rem; 
 }
 .demo1 {
     width: 70%;
-    font-size: 2vw;
+    font-size: 3vw;
     position: absolute;
     left: 15vw;
     top: 20vh;
@@ -41,9 +41,9 @@ body {
     width: 70%;
     position: relative;
     left: 15vw;
-    top: 3vh;
+    top: 1vh;
     color:black;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
 }
 
