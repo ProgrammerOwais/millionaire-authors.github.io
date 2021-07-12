@@ -3,7 +3,7 @@ body {
 }
 
 .closebtn {
-    font: size 3vw;;
+    font: size 1vw;;
     position: absolute;
     right: 3%;
     top: 50px;
@@ -14,7 +14,7 @@ body {
 }
 
 .about-heading1 {
-    font-size: 5vw;
+    font-size: 3vw;
     position: absolute;
     left: 50vh;
     top:8vh;
@@ -22,14 +22,14 @@ body {
 }
 
 .about-heading2 {
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     color: red;
     margin-top: 10rem; 
 }
 .demo1 {
     width: 70%;
-    font-size: 3vw;
+    font-size: 2vw;
     position: absolute;
     left: 15vw;
     top: 20vh;
@@ -43,7 +43,7 @@ body {
     left: 15vw;
     top: 3vh;
     color:black;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
 }
 
