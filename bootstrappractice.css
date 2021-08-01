@@ -1,9 +1,16 @@
+
+html {
+    overflow-x: hidden;
+}
+
+
 body {
     background-color: yellow;
+    overflow-x: hidden;
 }
 
 .closebtn {
-    font: size 1vw;;
+    font-size: 1vw;
     position: absolute;
     right: 3%;
     top: 10px;
@@ -14,7 +21,7 @@ body {
 }
 
 .about-heading1 {
-    font-size: 3.5vw;
+    font-size: 1.8rem;
     position: absolute;
     left: 50vh;
     top:8vh;
@@ -22,13 +29,13 @@ body {
 }
 
 .about-heading2 {
-    font-size: 3.5vw;
+    font-size: 1.8rem;
     text-align: center;
     color: red;
     margin-top: 10rem; 
 }
 .demo1 {
-    width: 70%;
+    width: 90%;
     font-size: 3vw;
     position: absolute;
     left: 15vw;
@@ -38,16 +45,25 @@ body {
 }
 
 .demo2 {
-    width: 70%;
+    width: 90%;
     position: relative;
-    left: 15vw;
-    top: 1vh;
     color:black;
-    font-size: 3vw;
+    margin: 0 auto;
+    font-size: 1.1rem;
     text-align: center;
+    word-wrap: break-word;
 }
 
 span {
-    transition: opacity 0.5s;
+    transition: opacity 300ms;
 
+}
+
+@media(min-width:902px) {
+    .about-heading2 {
+        font-size: 3rem;
+    }
+    .demo2 {
+        font-size: 1.8rem;
+    }
 }

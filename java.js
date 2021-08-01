@@ -1,5 +1,8 @@
-// About link section coding 
 
+
+
+
+// About link section coding 
 var div1        = document.querySelector(".demo1");
 var div2        = document.querySelector(".demo2");
 var div3        = div1.innerText;
@@ -61,7 +64,3 @@ setTimeout(() => {
 }, 4000);
 
 
-
-
-
-   
