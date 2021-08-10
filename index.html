@@ -16,56 +16,59 @@
 </head>
 <body class="bg-light">
     <header class="w-100">
-        <div class="container-fluid bg-dark text-white d-flex">
-            <div class="col-1 col-md-2 mt-3">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark text-white justify-content-between p-0 m-0 row">
+            <div class="col-0 col-md-2 mt-3 book-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-book mb-2" viewBox="0 0 16 16">
                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
                   </svg>
                 <span class="h2">Books</span>
                 
             </div>
-            <div class="col-4 pl-4 ml-3 col-md-4 pl-md-0 ml-md-0 pt-2 pt-md-0">
-                <div class="h1 text-center text-warning  pt-2">Millionaire Authors</div>
+            <div class="col-4 col-md-4 pl-md-0 ml-md-0 pt-2 pt-md-0">
+                <h1 class="h1 text-center text-warning pt-2">Millionaire Authors</h1>
             </div>
 
               <!-- header nav links -->
 
-            <div class="col-7 col-md-6 pt-md-0 pt-lg-1">
-                      <ul class="nav pt-2 pt-sm-3 pt-md-2  flex-row justify-content-md-between">
-                        <li class="nav-item">
-                          <div class="dropdown">
-                            <a class="nav-link btn btn-outline-warning text-white border-dark dropdown-toggle"
-                               data-toggle="dropdown" data-target="#dropwdownlist" href="#">
-                               Articles <span class="caret"></span>
-                              </a>
-                              <ul class="dropdown-menu bg-secondary">
-                                <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link1">First 20 Hours</a></li>
-                                <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link2">Harry Potter</a></li>
-                                <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link3">Fastlane Millionaire</a></li>
-                              </ul>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link btn btn-outline-warning text-white border-dark" data-toggle="popover" data-placement="bottom" title="Sorry!" data-content="This section is in under process." href="#">More info</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link btn btn-outline-warning text-white border-dark"  href="page2.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link btn btn-outline-warning text-white border-dark" data-toggle="modal" data-target="#signinmodal" href="#">Sing In</a>
-                        </li>
-                        <li class="nav-item d-flex">
-                          
-                          <div class="collapse hide mr-1" id="search">
-                            <input type="search" class="form-control" placeholder="Search">
-                          </div>
-                          <button class="btn btn-outline-dark" data-toggle="collapse" data-target="#search">
-                            <i class="bi bi-search text-white"></i>
-                          </button>
-                        </li>
-                      </ul>
-               </div>
-
+            <div class="col-7 p-0 m-0 col-md-6 pt-md-0 pt-lg-1 d-flex flex-column d-md-block">
+                       <button class="navbar-toggler align-self-end" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse float-md-right" id="collapsibleNavbar">
+                        <ul class="navbar-nav d-flex ">
+                          <li class="nav-item mr-lg-5">
+                            <div class="dropdown">
+                              <a class="nav-link btn btn-outline-warning text-white border-dark dropdown-toggle"
+                                 data-toggle="dropdown" data-target="#dropwdownlist" href="#">
+                                 Articles <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu bg-secondary">
+                                  <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link1">First 20 Hours</a></li>
+                                  <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link2">Harry Potter</a></li>
+                                  <li><a href="#" class="text-warning pl-2" data-toggle="modal" data-target="#modal-link3">Fastlane Millionaire</a></li>
+                                </ul>
+                            </div>
+                          </li>
+                          <li class="nav-item mr-lg-5">
+                            <a class="nav-link btn btn-outline-warning text-white border-dark" data-toggle="popover" data-placement="bottom" title="Sorry!" data-content="This section is in under process." href="#">More info</a>
+                          </li>
+                          <li class="nav-item mr-lg-5">
+                            <a class="nav-link btn btn-outline-warning text-white border-dark"  href="page2.html">About</a>
+                          </li>
+                          <li class="nav-item mr-lg-5">
+                            <a class="nav-link btn btn-outline-warning text-white border-dark" data-toggle="modal" data-target="#signinmodal" href="#">Sing In</a>
+                          </li>
+                          <li class="nav-item d-flex justify-content-center">
+                            <div class="collapse hide mr-1" id="search">
+                              <input type="search" class="form-control" placeholder="Search">
+                            </div>
+                            <button class="btn btn-outline-dark" data-toggle="collapse" data-target="#search">
+                              <i class="bi bi-search text-white"></i>
+                            </button>
+                          </li>
+                        </ul>
+                       </div>
+             </div>
                <!--This section is about modal box of articles link-->
                <div class="d-flex" >
                         
@@ -308,8 +311,9 @@
                         </div>
                       </div>
                </div>
-        </div>
+        </nav>
     </header>
+
     <main>
 
       <!-- introduction  -->

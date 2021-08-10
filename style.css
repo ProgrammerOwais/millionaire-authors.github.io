@@ -155,17 +155,13 @@ span {
 .btn:focus {
     box-shadow: none;
 }
-header {
-    margin-right: -1.3rem;
-}
-
-.footer {
-    margin-right: -1.5rem;
-}
 
 
 
 @media(min-width:300px) {
+    .book-icon {
+        display: none;
+    }
 
     .heading1 {
         font-size: 1rem;
@@ -255,6 +251,9 @@ header {
 
 @media(min-width:768px) {
 
+    .book-icon {
+        display: block;
+    }
     .heading1 {
         font-size: 1.5rem;
     }
